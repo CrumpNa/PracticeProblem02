@@ -8,12 +8,12 @@ public class Problem02Test {
     @Test
     public void sortTest(){
         int [] arr= {6,1,2,5,4};
-        String expectedArr= "{1,2,4,5,6}";
-        String actualArr=problem02.sort(arr);
+        int [] expectedArr= {1, 2, 4, 5, 6};
+        int [] actualArr=problem02.sort(arr);
         Assert.assertEquals(expectedArr,actualArr);
     }
 
-    /*
+
    @Test
    public void howManyContinuousTest(){
        int [] arr={1, 56, 58, 57, 90, 92, 94, 93, 91, 45};
@@ -24,6 +24,6 @@ public class Problem02Test {
 
    }
 
-*/
+
 
 }
